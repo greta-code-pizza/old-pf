@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'cabinbold';
+    src: url('assets/fonts/cabin-bold-webfont.woff2') format('woff2'),
+    url('assets/fonts/cabin-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #EBE9EE;
+    margin: 0;
+}
+
+header {
+    height: 82px;
+    background-color: #3b5998;
+    border-bottom: 1px solid #021243;
+}
+
+header h1#logo {
+    font-family: 'cabinbold';
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    margin: 0;
+    color: #fff;
+    font-size: 3em;
+}
+
+header #pika {
+    position: relative;
+    display: inline-block;
+    float: right;
+    padding: 10px;
+}
+
+header #pika img {
+    width: 64px;
+    border-radius: 100%;
+    border: 1px solid #FFF;
+}
+
+header #pika .notif {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 2px;
+    color: #FFFFFF;
+    border-radius: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.notif-orange {
+    background-color: orange;
+}
+.notif-red {
+    background-color: red;
+}
+
+
+#wall {
+    width: 80%;
+    background-color: #EBE9EE;
+    min-height: 100vh;
+    border-right: 1px solid #FFF;
+    padding: 10px;
+}
+
+#input-box {
+    width: 100%;
+    height: 102px;
+    background-color: #DEDCE0;
+    border: 1px solid #FFF;
+    border: none;
+}
+
+#create-message {
+    display: block;
+    font-family: 'Helvetica';
+    font-size: .8em;
+    width: 100%;
+    min-height: 70px;
+    margin: 0px auto;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#submit-button {
+    border: none;
+    background-color: #021243;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+    float: right;
+    margin: 5px 4px 0 0;
+}
+
+#wall-wrapper {
+    margin-top: 50px;
+}
+
+.message {
+    width: 80%;
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2px auto 0px;
+    font-family: 'Helvetica';
+    font-size: .8em;
+}

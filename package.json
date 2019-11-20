@@ -1,0 +1,19 @@
+{
+  "name": "exos",
+  "version": "1.0.0",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "test": "babel-node spec/run.js",
+    "watch": "webpack --watch"
+  },
+  "author": "Nicolas LE CHENIC",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "jasmine": "^3.5.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
