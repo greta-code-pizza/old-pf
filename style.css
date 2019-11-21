@@ -62,6 +62,8 @@ header #pika .notif {
 
 #wall {
     width: 80%;
+    display: inline-block;
+    vertical-align: top;
     background-color: #EBE9EE;
     min-height: 100vh;
     border-right: 1px solid #FFF;
@@ -111,4 +113,17 @@ header #pika .notif {
     margin: 2px auto 0px;
     font-family: 'Helvetica';
     font-size: .8em;
+}
+
+#adverts {
+    font-family: 'cabinbold';
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 11%;
+    color: #3b5998;
+}
+
+#adverts img {
+    width: 90%;
 }
